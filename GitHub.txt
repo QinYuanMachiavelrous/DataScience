@@ -1,0 +1,76 @@
+In command prompt.
+
+git - opens help. 
+
+1) Go to the folder that you want to use as the shared Git Repository.
+
+2) Click on the directory and then key in cmd to open Command Prompt.
+   I had chosen a folder called "Git Repo" to be the folder.
+
+e.g: C:\Users\...\Git Repo>
+
+
+3) To initialise it as the repository, key in "git init" at the directory
+
+e.g: C:\Users\...\Git Repo>git init
+
+
+4) To upload the files, put the files into the repository folder and then key 
+   "git add -A" in the command prompt.
+
+e.g: C:\Users\...\Git Repo>git add -A
+
+use git reset to unstage all files
+
+
+5) If you want to check the status of the files key in "git status". 
+   Green means good.
+
+e.g: C:\Users\...\Git Repo>git status
+
+
+6) To commit the repository. Key in "git commit -a -m *message*".
+   "-a" is to commit all files.
+   "-m" is to add the message. 
+
+e.g: C:\Users\...\Git Repo>git commit -a -m "First Commit of the Project"
+
+
+7) To add to the remote repository(online), key in "git remote add origin *url*".
+
+e.g: C:\Users\...\Git Repo>git remote add origin https://github.com/Machiavelrous/FootballProject.git
+
+
+8) To see the online repository for fetch and push.
+
+e.g: C:\Users\...\Git Repo>git remote -v
+
+
+9) To push all the files. Use "git push origin master".
+
+C:\Users\...\Git Repo>git push origin master
+
+
+10) Done! Check the online repository.
+
+
+11) To upload individual files, use "git add *filename.extension*" 
+
+C:\Users\...\Git Repo>git push Steps_for_GitHub.txt
+
+
+12) Continue with the rest of the steps without -a. 
+    Also, file name must not have spaces in between.
+
+
+13) To make another addition, be sure to go to directory first 
+    open command prompt and "git pull *url*" to git pull.
+
+C:\Users\...\Git Repo>git pull https://github.com/Machiavelrous/FootballProject.git
+
+
+14) Once done git pull, follow steps from the first to upload again.
+
+15) PLEASE DONT DELETE ANYTHING. 
+I had alot of trouble when I deleted things in the repository.
+Just create new folder and then commit all.
